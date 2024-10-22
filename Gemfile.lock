@@ -14,12 +14,6 @@ GEM
     ffi (1.17.0-x86_64-darwin)
     ffi (1.17.0-x86_64-linux-gnu)
     forwardable-extended (2.6.0)
-    google-protobuf (4.28.2-arm64-darwin)
-      bigdecimal
-      rake (>= 13)
-    google-protobuf (4.28.2-x86_64-darwin)
-      bigdecimal
-      rake (>= 13)
     google-protobuf (4.28.2-x86_64-linux)
       bigdecimal
       rake (>= 13)
@@ -69,10 +63,6 @@ GEM
     safe_yaml (1.0.5)
     sass (3.7.4)
       sass-listen (~> 4.0.0)
-    sass-embedded (1.80.3-arm64-darwin)
-      google-protobuf (~> 4.28)
-    sass-embedded (1.80.3-x86_64-darwin)
-      google-protobuf (~> 4.28)
     sass-embedded (1.80.3-x86_64-linux-gnu)
       google-protobuf (~> 4.28)
     sass-listen (4.0.0)
@@ -89,7 +79,6 @@ PLATFORMS
   arm64-darwin-22
   x86_64-darwin-20
   x86_64-linux
-  x86_64-linux-gnu
 
 DEPENDENCIES
   http_parser
