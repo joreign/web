@@ -19,12 +19,14 @@ plugins: [jekyll-paginate]
 paginate: 5
 
 navigation:
-    - title: Home
+    - title: Seitenübersicht
       url: /index.html
-    - title: About
+    - title: Über uns
       url: /about
-    - title: Contact
+    - title: Kontakt
       url: /contact
+    - title: Datenschutz
+      url: /privacy
 
 social:
     twitter: NAutofrei
