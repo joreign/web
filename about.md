@@ -15,5 +15,5 @@ title: Über Changing Nürnberg
   		<li>Wollen eine Verkehrswende</li>
   	</ul>
 	<h2>Über die Webseite</h2>
-    <p>Die Webseite wurde mit <a href="https://github.com/brianmaierjr/long-haul">long haul</a> aufgebaut.
+    <p>Die Webseite wurde mit <a href="https://github.com/brianmaierjr/long-haul">long haul</a> aufgebaut.</p>
 </div>
