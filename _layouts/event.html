@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<article class="event">
+  <header>
+    <h1 class="postTitle">{{ page.title }}</h1>
+    <p class="meta">{{ page.eventdate | date: '%B %d, %Y' }} (erstellt am  {{ page.date | date: '%B %d, %Y' }})</p>
+  </header>
+
+  {%- if page.image -%}
+    <div class="featuredImage">
+	    <img src="{{ '/assets/img/' | append: page.image | relative_url }}" alt="{{page.image-alt}}" />
+      </div>
+  {%- endif -%}
+
+  {{ content }}
+
+</article>
+

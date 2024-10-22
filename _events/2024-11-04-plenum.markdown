@@ -1,0 +1,8 @@
+---
+layout: event
+title:  "Plenum"
+eventdate: 2024-11-04
+date: 2024-10-22
+---
+
+<p class="intro">Plenum am 4. November im Martha-Café.</p>

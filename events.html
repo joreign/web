@@ -1,0 +1,24 @@
+---
+layout: default
+title: Changing Nürnberg - Veranstaltungen
+---
+
+<div class="home" id="Veranstaltungen">
+ <h1 class="pageTitle">Alle Veranstaltungen</h1>
+ <div class="posts noList">
+ {% if site.events %}
+ 1
+ {% else %}
+ 2
+ {% endif %}
+
+ {% assign ordered = site.events | sort: 'event-date' %}
+ {% for item in ordered %}
+  <div id="{{item.url}}" event-date="{{item.event-date | date: '%Y%m%d'}}">
+   <span class="date">{{ event.eventdate | date: '%B %d, %Y' }}</span>
+   <h2> {{ item.eventdate }}: <a href="{{item.url}}">{{ item.title }}</a></h2>
+   <p>{%- if item.description -%}{{ item.description }}{%- else -%}{{ item.excerpt | strip_html }}{%- endif -%}</p>
+  </div>
+ {% endfor %}
+ </div>
+</div>
