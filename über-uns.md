@@ -3,8 +3,8 @@ layout: default
 title: Über Changing Nürnberg
 ---
 
-<div class="post">
-	<h1 class="pageTitle">About Long Haul</h1>
+<div id="Über uns" class="post">
+	<h1 class="pageTitle">Über Changing Nürnberg</h1>
 	<img src="{{ '/assets/img/touring.jpg' | relative_url }}" alt="">
 	<p class="intro">Changing Nürnberg enstand am .... </p>
 	<p>Hier steht bald eine ausführlichere Beschreibung von Changing N+ürnberg.</p>
