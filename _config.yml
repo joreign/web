@@ -35,3 +35,7 @@ social:
     mastodon: https://climatejustice.social/@Nbgautofrei
     instagram: nautofrei
     facebook: nautofrei
+
+collections:
+  events:
+    output: true
