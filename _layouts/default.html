@@ -8,8 +8,9 @@
 
 <body>
 
+   {%- unless page.nonav -%}
    {%- include header.html -%}
-
+   {%- endunless -%}
    <div class="content">
       <div class="container">
          {{ content }}
