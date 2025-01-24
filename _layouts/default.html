@@ -8,15 +8,19 @@
 
 <body>
 
+   {%- unless page.nonav -%}
    {%- include header.html -%}
-
+   {%- endunless -%}
    <div class="content">
       <div class="container">
          {{ content }}
       </div>
    </div><!-- end .content -->
 
+   
+   {%- unless page.nonav -%}
    {%- include footer.html -%}
+   {%- endunless -%}
    {%- include scripts.html -%}
 
 </body>

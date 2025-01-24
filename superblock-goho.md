@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Superblock Gostenhof
+nonav: true
 ---
 
 <div id="Superblock Gostenhof" class="post">
