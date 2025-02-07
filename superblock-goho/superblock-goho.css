@@ -1,0 +1,39 @@
+div.content::after {
+    background-color: #C7BFF0;
+}
+
+::selection {
+    color: #312682;
+    background-color: #F5EC5F;
+}
+
+div {
+    #Superblock\ Gostenhof {
+        color: #312682;
+    }
+
+    background-color: #C7BFF0;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h2.intermediate {
+    text-align: center;
+    background-color: #F5EC5F;
+    border-color: #312682;
+    border-width: 0.12em;
+    border-radius: 5px;
+    border-style: solid;
+    max-width: 53%;
+    margin: auto;
+    margin-bottom: 3%;
+}
+
+a {
+    color: #72419E;
+}
+
+a:hover {
+    color: white;
+
+}
