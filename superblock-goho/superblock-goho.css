@@ -1,4 +1,3 @@
-
 div.content::after {
     background-color: #C7BFF0;
 }
@@ -14,7 +13,7 @@ div {
     }
 
     background-color: #C7BFF0;
-    max-width: 1400px;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -25,5 +24,16 @@ h2.intermediate {
     border-width: 0.12em;
     border-radius: 5px;
     border-style: solid;
-    max-width: 40%;
+    max-width: 45%;
+    margin: auto;
+    margin-bottom: 3%;
+}
+
+a {
+    color: #72419E;
+}
+
+a:hover {
+    color: white;
+
 }
