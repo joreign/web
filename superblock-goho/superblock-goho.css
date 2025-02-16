@@ -35,5 +35,9 @@ a {
 
 a:hover {
     color: white;
+}
 
+#einladung {
+    border: 0.32em solid #312682;
+    border-radius: 5px;
 }
