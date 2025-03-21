@@ -5,7 +5,7 @@ title: Über Changing Nürnberg
 
 # Über uns 
 
-Changing Nürnberg enstand aus dem Bürger\*innenbegehren Nürnberg Autofrei.
+Changing Nürnberg ist in April 2025 aus dem Bürger\*innenbegehren Nürnberg Autofrei.
 
 ## Wer sind wir
 
