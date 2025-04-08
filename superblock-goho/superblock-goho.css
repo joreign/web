@@ -27,6 +27,7 @@ h2.intermediate {
     max-width: 53%;
     margin: auto;
     margin-bottom: 3%;
+    clear: inline-end;
 }
 
 a {
@@ -35,5 +36,11 @@ a {
 
 a:hover {
     color: white;
+}
 
+iframe {
+    max-width: fit-content;
+    display: block;
+    float: right;
+    margin-bottom: 30px;
 }
