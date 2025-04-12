@@ -44,3 +44,37 @@ iframe {
     float: right;
     margin-bottom: 30px;
 }
+
+.events {
+    width: 90%;
+    margin-bottom: 0.7rem;
+}
+
+.events > p, .events-border > p {
+    line-height: 1.4;
+    margin: 0;
+    padding: 0 0 0 10px;
+
+}
+
+.events > h5, h6 {
+    padding: 0 0 0 25px;
+    margin: 0;
+    font-size: 0.86em;
+}
+
+.events-border {
+    border-left: 5px solid #72419E;
+    height: 20%;
+    border-radius: 5px;
+}
+
+p.time {
+    font-family: sans-serif;
+    letter-spacing: 0.01em;
+    font-size: 0.88em;
+}
+
+p.location {
+    font-weight: 100;
+}
