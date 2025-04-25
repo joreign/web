@@ -7,19 +7,54 @@ nonav: true
 <div id="Superblock Gostenhof" class="post">
     <link rel="stylesheet" href="superblock-goho.css" />
     <h1 class="pageTitle">Superblock Gostenhof</h1>
-    <p class="intro">Der Superblock in Gostenhof soll kommen -- gestalte ihn mit uns!</p>
-    <p>
-        <img src="{{ '/assets/img/2025-24-04_Stammtischplakat.jpeg' | relative_url }}"
+    <p class="intro">Der Superblock in Gostenhof soll kommen - gestalte ihn mit uns!</p>
+    <p> <img src="{{ '/assets/img/2025-08-05_Stammtischplakat.jpeg' | relative_url }}"
             alt="Einladung zum Superblock Stammtisch. Das Bild zeigt das Logo des Superblock Gostenhof Nürnberg sowie eine Straße, die mit bunte Stände und Menschen belegt ist. Darunter steht: Gemeinsam machen wir Gostenhof noch lebenswerter! Komme zum Superblock Stammtisch oder teile uns deine Wünsche mit." />
         Einladung zum Superblock Stammtisch. Beim Superblock Stammtisch sammeln und entwickeln wir Ideen, wie wir die
-        enstehenden Fußgänger-Zonen gestalten können.
-    </p>
-    <p>
-
+        enstehenden Fußgänger-Zonen gestalten können.</p>
     <h2 class="intermediate">Mitmachen</h2>
     <p> Wir treffen uns alle 2 Wochen beim offenen Supperblock-Stammtisch im Nachbarschaftshaus Gostenhof oder im Bistro
-        West, der Termin nächste Termin ist der <b>24. April 2025 um 19 Uhr im Nachbarschaftshaus Gostenhof</b>. Kommt
+        West, der Termin nächste Termin ist der <b>8. Mai 2025 um 19 Uhr im Nachbarschaftshaus Gostenhof</b>. Kommt
         gerne spontan dazu oder schreibt uns eine Mail an superblock-gostenhof at outlook.de!</p>
+    <p> Im folgenden Abschnit findest Du alle anstehenden Termine. Während der Superblock immer
+        näher rückt, haben wir angefangen die Arbeiten in mehrere Gruppen
+        aufzuteilen. Es gibt die AG Finanzierung, die AG Kommunikation, die AG
+        Grün, die AG Möbel und die AG Boden. Die einzelnen AGs treffens sich
+        unabhängig vom Superblock Stammtisch.</p>
+    <div class="events" data-date="2025-04-26">
+        <h5>26.04.2025</h5>
+        <div class="events-border" class="events">
+            <p><b>Begehung Superblock</b></p>
+            <p>Start vor dem Nachbarschaftshaus Goho</p>
+            <p class="time">11:00</p>
+        </div>
+    </div>
+    <div class="events" data-date="2025-04-28">
+        <h5>28.4.2025</h5>
+        <div class="events-border" class="events">
+            <p><b>Treffen AG Finanzierung</b></p>
+            <p>Nachbarschaftshaus Goho, Eingangsbereich</p>
+            <p class="time">19:00</p>
+        </div>
+    </div>
+    <div class="events" data-date="2025-04-29">
+        <h5>29.04.2025</h5>
+        <div class="events-border" class="events">
+            <p><b>Bürgerbeteiligung zum Teilabschnitt Austr. </b><a
+                href="https://www.nuernberg.de/presse/mitteilungen/pm_25323.html">[1]</a></p>
+            <p>Nachbarschaftshaus Goho, großer Saal</p>
+            <p class="time">18:30</p>
+        </div>
+    </div>
+    <div class="events" data-date="2025-05-08">
+        <h5>08.05.2025</h5>
+        <div class="events-border" class="events">
+            <p><b>Superblock Stammtisch mit Kennen-Lern Runde</b></p>
+            <p>Nachbarschaftshaus Goho, kleiner Saal</p>
+            <p class="time">19:00, Kennen-Lern Runde: 18:30</p>
+        </div>
+    </div>
+    <p></p>
     <h2 class="intermediate">Ideen</h2>
     <p> Im Superblock schaffen wir mehr Aufenthaltsqualität und öffnen die Straße für alle. Dort sollte dann natürlich
         auch entstehen, wie zum Beispiel:</p>
@@ -83,3 +118,18 @@ nonav: true
         <a href="https://autofrei-nbg.de/datenschutz-impressum/">Impressum von Nürnberg Autofrei</a>.
     </p>
 </div>
+
+<script>
+    const article = document.querySelectorAll("[data-date]");
+    for (let i = 0; i < article.length; i++) {
+        const datestring = article[i].dataset.date;
+        const date = new Date(datestring);
+        const currentDate = new Date();
+        const msPerDay = 24 * 60 * 60 * 1000;
+        let daysLeft = (date.getTime() - currentDate.getTime()) / msPerDay;
+        console.log(daysLeft);
+        if (daysLeft <= -1) {
+            article[i].remove();
+        }
+    }
+</script>
